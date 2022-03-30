@@ -120,10 +120,7 @@ margin-right: auto;
     color: var(--primery-title-color);
     
 }
-.icon-envelope {
-    margin-right: 10px;
-    fill: var(--primery-text-color);
-  }
+
 .nav-link-stydio:focus, .nav-link-portfolio:focus, .nav-link-contact:focus,
 .nav-link-stydio:hover, .nav-link-portfolio:hover, .nav-link-contact:hover {
     color: var(--accent-color);
