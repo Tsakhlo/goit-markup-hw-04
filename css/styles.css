@@ -11,6 +11,7 @@
     --primery-team-color: #F5F4FA;
     --primery-background-color: #2F303A;
     --icons-gray: rgba(175, 177, 184, 1);
+    --icons-footer: rgba(255, 255, 255, 0.1);
 }
 
 
@@ -424,6 +425,10 @@ padding-top: 0;
     padding-top: 60px;
     padding-bottom: 60px;
 }
+.footer .container {
+    display: flex;
+    align-items: baseline;
+  }
 
 .footer-logo{
     font-family: var(--secondary-font);
@@ -441,6 +446,7 @@ padding-top: 0;
 }
 
 /*adress*/
+
 .address-list{
     font-style: normal;
     margin-top: 20px;
@@ -462,3 +468,40 @@ padding-top: 0;
 .footer-address-link:focus, .footer-mail-link:focus, .footer-tel-link:focus{
     color: var(--accent-color);
 }
+
+.icons-box {
+    margin-left: 70px;
+  }
+  .footer-icons-title {
+    margin-bottom: 20px;
+  
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primery-white-color);
+  }
+  .footer-icons-list {
+    display: flex;
+    column-gap: 10px;
+  }
+  
+  .footer-icons-list .item {
+    line-height: 0px;
+  
+    background-color: var(--icons-footer);
+    border-radius: 50%;
+  }
+  
+  .footer-icons-list .item use {
+    fill: var(--primery-white-color);
+  }
+  
+  .footer-icons-list .item:hover,
+  .footer-icons-list .item:focus {
+    background-color: var(--accent-color);
+  }
+  
+  .footer-icon-link {
+    display: block;
+    padding: 12px 12px;
+  }
