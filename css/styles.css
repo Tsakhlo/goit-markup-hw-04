@@ -144,7 +144,7 @@ margin-right: auto;
 }
 
 
-.contact-link-mailto , .contact-link-tel {
+.link {
     display: flex;
     color: var(--primery-text-color);
     text-align: center;
@@ -152,8 +152,7 @@ margin-right: auto;
 }
 
 
-.contact-link-mailto:hover , .contact-link-tel:hover,
-.contact-link-mailto:focus , .contact-link-tel:focus
+.link:hover, .link:focus
 {
     color: var(--accent-color);
 }
@@ -163,8 +162,8 @@ margin-right: auto;
     fill: var(--primery-text-color);
   }
 
-.contact-link-mailto:hover .icon-envelope,
-.contact-link-mailto:focus .icon-envelope{
+.link:hover .icon-envelope,
+.link:focus .icon-envelope{
     fill: var(--accent-color);
 
 }
