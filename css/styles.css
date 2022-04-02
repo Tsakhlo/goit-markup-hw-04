@@ -227,7 +227,7 @@ margin-right: auto;
 .hang-container{
   display: flex;
   justify-content: center;
-  text-align: center;
+  align-items: center;
   height: 120px;
   margin-bottom: 30px;
 
