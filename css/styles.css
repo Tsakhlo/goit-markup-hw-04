@@ -152,8 +152,7 @@ margin-right: auto;
 }
 
 
-.link:hover, .link:focus
-{
+.link:hover, .link:focus {
     color: var(--accent-color);
 }
 
@@ -162,10 +161,8 @@ margin-right: auto;
     fill: var(--primery-text-color);
   }
 
-.link:hover .icon-envelope,
-.link:focus .icon-envelope{
+.link:hover .icon-envelope {
     fill: var(--accent-color);
-
 }
 
 
