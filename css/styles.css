@@ -147,21 +147,19 @@ margin-right: auto;
 .link {
     display: flex;
     color: var(--primery-text-color);
-    text-align: center;
+    align-items: center;
 
 }
 
 .icon-envelope {
     margin-right: 10px;
+    fill: currentColor;
 }
 
 
 .link:hover, .link:focus {
     color: var(--accent-color);
 }
-.link:hover .icon-envelope {
-    fill: var(--accent-color);
-  }
 
 /*section hero*/
 
