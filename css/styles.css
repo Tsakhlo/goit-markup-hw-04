@@ -144,7 +144,7 @@ margin-right: auto;
 }
 
 
-.link {
+.contact a {
     display: flex;
     color: var(--primery-text-color);
     align-items: center;
