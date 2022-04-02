@@ -161,10 +161,10 @@ margin-right: auto;
     margin-right: 10px;
     fill: var(--primery-text-color);
   }
-.contact-link-mailto:hover .icon-envelope{
+.contact-link-mailto:hover .icon-envelope:hover{
     fill: var(--accent-color);
 }
-.contact-link-tel:hover .icon-envelope{
+.contact-link-tel:hover .icon-envelope:focus{
     fill: var(--accent-color);
 }
 
