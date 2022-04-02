@@ -398,7 +398,7 @@ padding-top: 0;
   }
 
   .clients-icon-list .use{
-    fill: var(--primery-text-color);
+    fill: currentColor;
   }
 
 
