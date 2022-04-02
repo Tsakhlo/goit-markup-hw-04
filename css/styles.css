@@ -151,18 +151,14 @@ margin-right: auto;
 
 }
 
+.icon-envelope {
+    margin-right: 10px;
+    --icon-color: currentColor;
+}
+
 
 .link:hover, .link:focus {
     color: var(--accent-color);
-}
-
-.icon-envelope {
-    margin-right: 10px;
-    fill: var(--primery-text-color);
-  }
-
-.link:hover .icon-envelope {
-    fill: var(--accent-color);
 }
 
 
