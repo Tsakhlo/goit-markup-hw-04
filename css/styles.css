@@ -332,9 +332,9 @@ padding-top: 0;
 .team-links-item{
     width: 44px;
     height: 44px;
-    border-radius: 50%;}
+    }
 .team-link {
-    
+    border-radius: 50%;
     display: flex;
     
     align-items: center;
@@ -347,8 +347,8 @@ padding-top: 0;
   .team-links-item use {
     fill: var(--icons-gray);
   }
-  .team-links-item:hover,
-  .team-links-item:focus {
+  .team-link:hover,
+  .team-link:focus {
     background-color: var(--accent-color);
     
   }
@@ -522,12 +522,14 @@ padding-top: 0;
   }
   .footer-icons-title {
     margin-bottom: 20px;
-  
-    font-weight: 700;
-    line-height: 1.14;
     text-transform: uppercase;
     color: var(--primery-white-color);
+    font-weight: 700;
   }
+
+
+
+
   .footer-icons-list {
     display: flex;
     column-gap: 10px;
@@ -535,23 +537,31 @@ padding-top: 0;
   
   .footer-icons-list .item {
     line-height: 0px;
-  
-    background-color: var(--icons-footer);
-    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    
+   
   }
   
   .footer-icons-list .item use {
     fill: var(--primery-white-color);
   }
   
-  .footer-icons-list .item:hover,
-  .footer-icons-list .item:focus {
+  .footer-icon-link:hover,
+  .footer-icon-link:focus {
     background-color: var(--accent-color);
   }
   
   .footer-icon-link {
-    display: block;
-    padding: 12px 12px;
+    border-radius: 50%;
+    display: flex;
+    background-color: var(--icons-footer);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    
+   
   }
 
 
